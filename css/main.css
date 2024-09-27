@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
 header{
   height: 6.25rem;
   background-color: #000;
@@ -33,4 +38,27 @@ header{
   width: 80px;
   height: 80px;
   background: #b28756;
+}
+
+.header__menu nav {
+  display: flex;
+}
+
+.header__menu a{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 10px;
+  border-bottom: 5px solid #000;
+
+}
+
+
+nav .active,
+.header__menu a:hover{
+  border-bottom: 5px solid #b28756;
 }
