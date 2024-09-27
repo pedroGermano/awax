@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 6.25rem;
+  background-color: #000;
+  
+}
+
+.header__container{
+  display: flex;
+  align-items: center;
+  max-width: 71.25rem;
+  height: 6.25rem;
+  color: #fff;
+  margin:  auto;
+}
+
+.header__logo{
+  width: 100px;
+  
+}
+
+.header__menu{
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+.logo__img{
+  width: 80px;
+  height: 80px;
+  background: #b28756;
+}
