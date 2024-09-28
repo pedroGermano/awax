@@ -61,4 +61,13 @@ header{
 nav .active,
 .header__menu a:hover{
   border-bottom: 5px solid #b28756;
+  opacity: 0.8;
+}
+
+.banner__container{
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url(../assets/complementos/bg.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
